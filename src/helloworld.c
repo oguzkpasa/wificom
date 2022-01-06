@@ -1,3 +1,10 @@
+/*
+ * main.c
+ *
+ *  Created on: Jun 11, 2018
+ *      Author: arthur
+ */
+
 #include "xparameters.h"
 #include "xil_printf.h"
 #include "sleep.h"
@@ -81,6 +88,7 @@ int main() {
 	DemoInitialize();
 	setAccessPoint();
 	setAPConf();
+	wifiConnection();
 	cipStart();
 	u8 recv_buffer=0;
 	//DemoRun();
