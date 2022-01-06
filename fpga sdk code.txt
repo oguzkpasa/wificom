@@ -1,10 +1,3 @@
-/*
- * main.c
- *
- *  Created on: Jun 11, 2018
- *      Author: arthur
- */
-
 #include "xparameters.h"
 #include "xil_printf.h"
 #include "sleep.h"
